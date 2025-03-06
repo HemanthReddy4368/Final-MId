@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-box">
+    <header>
+        <nav id="topnav">
+            <a href="#about" class="logo">En</a>
+            <a href="#about">About Me</a>
+            <a href="#publications">Publications</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#gallery">Gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+        <section class="about" id="about">
+            <div class="about-text">
+                <div class="about-title">
+                </div>
+                <div class="sentences">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="circle">
+                    <img src="Albert Einstein.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="publications" id="publications">
+            <h2>Publications</h2>
+            <div class="publications-grid">
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.
+                    </p>
+                    <a href="#">View Paper</a>
+                </div>
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.</p>
+                    <a href="#">View Paper</a>
+                </div>
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet.</p>
+                    <a href="#">View Paper</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="hobbies-grid">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+        </section>
+        <hr>
+        <section class="blogs" id="blogs">
+            <h2>Blogs</h2>
+            <div class="blog-grid">
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</p>
+                    <a href="#">View Article</a>
+                </div>
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</p>
+                    <a href="#">View Article</a>
+                </div>
+                <div class="publications-card">
+                    <img src="image.png" alt="publications Image">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</p>
+                    <a href="#">View Article</a>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="E1.jpg" alt="Gallery Image">
+                </div>
+                <div class="gallery-card">
+                    <img src="E2.jpg" alt="Gallery Image">
+                </div>
+                <div class="gallery-card">
+                    <img src="E3.jpg" alt="Gallery Image">
+                </div>
+                <div class="gallery-card">
+                    <img src="E4.jpg" alt="Gallery Image">
+                </div>
+                <div class="gallery-card">
+                    <img src="E1.jpg" alt="Gallery Image">
+                </div>
+                <div class="gallery-card">
+                    <img src="E2.jpg" alt="Gallery Image">
+                </div>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+</html>
